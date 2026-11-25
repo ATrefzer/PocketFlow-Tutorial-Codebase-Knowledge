@@ -121,7 +121,7 @@ This is a tutorial project of [Pocket Flow](https://github.com/The-Pocket/Pocket
     - `--max-abstractions` - Maximum number of abstractions to identify (default: 10)
     - `--no-cache` - Disable LLM response caching (default: caching enabled)
 
-The application will crawl the repository, analyze the codebase structure, generate tutorial content in the specified language, and save the output in the specified directory (default: ./output).
+The application will crawl the repository, analyze the codebase structure, generate tutorial content in the specified language, and save the output in the specified directory (default: ./output). Besides `index.md` and one file per chapter, `tutorial_complete.md` contains the whole tutorial as a single document.
 
 
 <details>
